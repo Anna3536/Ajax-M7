@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+    font-family: 'Bebas Neue', cursive;
+    z-index: -1;
+}
+
+.container {
+    background-image: url(joke.jpg);
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 100vh;
+    background-position: top right;
+}
+
+#botonJoke {
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    color: #FFBE0B;
+}
+
+.alert1 {
+    background-color: #FFBE0B;
+    color: black;
+}
+
+.alert #joke {
+    font-size: xx-large;
+}
